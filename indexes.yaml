@@ -1,0 +1,6 @@
+indexes:
+
+- kind: Transaction
+  ancestor: no
+  properties:
+  - name: payment_id

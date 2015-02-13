@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+	<body>
+		<ul>
+			<li><strong>Total: </strong> {{ total }}</li>
+			<li><strong>Tracking #: </strong> {{ tracking_id }}</li>
+			<li><strong>Authorization #: </strong> {{ auth }}</li>
+			<li><strong>Transaction Reference: </strong> {{ transaction_ref }}</li>
+			<li><strong>Transaction #: </strong> {{ transaction_id }}</li>
+			<li><strong>Post Date: </strong>{{ postdate }}</li>
+		</ul>
+	</body>
+</html>
+{% endautoescape %}

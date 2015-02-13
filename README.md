@@ -22,6 +22,7 @@ To deploy the application:
 2. Update the `app.yaml` file and replace `gdg-knet` with the name of your project.
 3. Edit `main.py` and replace `ALIAS = 'aub'` with the alias for your terminal.
 4. Upload the project by typing `appcfg.py update /path/to/the/repository`
+5. Visit the URL for your project `http://your-project-name.appspot.com/`
 
 For more information on the transaction process,
 see the [documentation for `e24PaymentPipe`](https://e24paymentpipe.readthedocs.org)
